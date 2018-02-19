@@ -466,6 +466,7 @@ The OAuth 2 client id is an identifier, not a secret. As such, it does not need 
 
     <span class="nx">$</span><span class="p">.</span><span class="nx">when</span><span class="p">(</span><span class="nx">pt</span><span class="p">,</span> <span class="nx">obv</span><span class="p">).</span><span class="nx">fail</span><span class="p">(</span><span class="nx">onError</span><span class="p">);</span>
 
+
     <span class="nx">$</span><span class="p">.</span><span class="nx">when</span><span class="p">(</span><span class="nx">pt</span><span class="p">,</span> <span class="nx">obv</span><span class="p">).</span><span class="nx">done</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">patient</span><span class="p">,</span> <span class="nx">obv</span><span class="p">)</span> <span class="p">{</span>
       <span class="kd">var</span> <span class="nx">byCodes</span> <span class="o">=</span> <span class="nx">smart</span><span class="p">.</span><span class="nx">byCodes</span><span class="p">(</span><span class="nx">obv</span><span class="p">,</span> <span class="s1">'code'</span><span class="p">);</span>
       <span class="kd">var</span> <span class="nx">gender</span> <span class="o">=</span> <span class="nx">patient</span><span class="p">.</span><span class="nx">gender</span><span class="p">;</span>
